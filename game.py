@@ -35,15 +35,6 @@ clock = pygame.time.Clock()
 
 font = pygame.font.SysFont(None, 25)
 
-lele = str()
-
-
-def write_file(url):
-    file = open('sample.txt', 'w')
-    file.write()
-    file.close()
-
-
 def get_collision(p_x, p_y, target_x, target_y, width, height):
     if p_x >= target_x and p_x <= target_x + width:
         if p_y >= target_y and p_y <= target_y + height:
