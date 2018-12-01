@@ -1,2 +1,2 @@
 # Retro-Worm
-A simple game made in Python.
+A worm game made in Python.
